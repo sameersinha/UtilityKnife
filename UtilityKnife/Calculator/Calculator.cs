@@ -7,5 +7,9 @@ namespace UtilityKnife.Calculator {
         public static int Subtract(int x, int y) {
             return x - y;
         }
+
+        public static int Multiply(int x, int y) {
+            return x * y;
+        }
     }
 }
