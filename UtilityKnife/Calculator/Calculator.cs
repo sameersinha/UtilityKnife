@@ -15,5 +15,9 @@ namespace UtilityKnife.Calculator {
         public static int IDiv(int x, int y) {
             return x / y;
         }
+
+        public static double Div(int x, int y) {
+            return (double)x / y;
+        }
     }
 }
